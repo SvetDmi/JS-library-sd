@@ -1,0 +1,33 @@
+.f_size-16 {
+  font-size: 16px;
+}
+.f_size-20 {
+  font-size: 20px;
+}
+.f_size-24 {
+  font-size: 24px;
+}
+.f_bold {
+  font-weight: bold;
+}
+.f_thin {
+  font-weight: 300;
+}
+.f_italic {
+  font-style: italic;
+}
+.text_color-primary {
+  color: $primary;
+}
+.text_color-danger {
+  color: $danger;
+}
+.text_color-success {
+  color: $success;
+}
+.text_color-warning {
+  color: $warning;
+}
+.text_color-dark {
+  color: $dark;
+}

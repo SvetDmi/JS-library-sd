@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="m-30 section">
+
+  <!-- DropdownMenu -->
+      <section class="section p_b-20">
+        <h3 class="m-20">DropdownMenu</h3>
+        <div class="m-10 dropdown">        
+          <button class="btn btn_primary dropdown__btn" id="dropdownBtn">
+            Dropdown button
+          </button>
+          <div class="dropdown__menu" data-id="dropdownBtn">
+            <a href="#" class="dropdown__item">Action</a>
+            <a href="#" class="dropdown__item">Action #2</a>
+            <a href="#" class="dropdown__item">Action #3</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn_danger dropdown__btn" id="dropdownBtn2">
+            Dropdown button 2
+          </button>
+          <div class="dropdown__menu" data-id="dropdownBtn2">
+            <a href="#" class="dropdown__item">Action</a>
+            <a href="#" class="dropdown__item">Action #2</a>
+            <a href="#" class="dropdown__item">Action #3</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Card -->
+  <h3 class="m-20">Cards</h3> 
+
+    <section class="section p_b-20">           
+      <div class = "m-10 d_flex d_f_space-around container">
+        <div class="m-20 card">     
+          <img class="w_p-100" src="https://avatars.mds.yandex.net/i?id=b2768d57e1a5769d672213a40ac3823f-2988630-images-thumbs&n=13" alt="photo">
+          <div class="p-20">
+            <h4 class="card__title">Title</h4>
+            <p class="m_b-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            </p>
+            <a href="#" class="btn btn_primary btn_open-modal" id="trigger1" data-target="#exampleModal1">Link to...</a>
+          </div>
+        </div>
+
+          <div class="m-20 card">         
+            <img class="w_p-100" src="https://avatars.mds.yandex.net/i?id=1446d2fa8e94a56462eaf95323012b9b-4395710-images-thumbs&n=13" alt="photo">
+            <div class="p-20">
+              <h4 class="card__title">Title</h4>
+              <p class="m_b-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              </p>
+              <a href="#" class="btn btn_primary btn_open-modal" id="trigger2" data-target="#exampleModal2">Link to...</a>
+            </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Modal
+    <div class="modal" id="exampleModal1">
+      <div class="modal__dialog">
+        <div class="modal__content">
+          <button class="btn_close" data-close>
+            <span>&times;</span>
+          </button>
+          <div class="modal__header">
+            <h4 class="modal__title">Modal title</h4>
+          </div>
+          <div class="modal__body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus dicta sit dolores a omnis ullam officiis ex blanditiis nisi unde culpa, rem incidunt ab error. Unde earum iure sint temporibus?
+          </div>
+          <div class="modal__footer">
+            <button class="btn btn_success">Save</button>
+            <button class="btn btn_danger" data-close>Cancel</button>
+          </div>        
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="exampleModal2">
+      <div class="modal__dialog">
+        <div class="modal__content">
+          <button class="btn_close" data-close>
+            <span>&times;</span>
+          </button>
+          <div class="modal__header">
+            <h4 class="modal__title">Modal title 2</h4>
+          </div>
+          <div class="modal__body">
+            Lorem ipsum dolor sit amet
+          </div>
+          <div class="modal__footer">
+            <button class="btn btn_success">Save</button>
+            <button class="btn btn_danger" data-close>Cancel</button>
+          </div>        
+        </div>
+      </div>
+    </div> -->
+
+  <!-- Tabs -->
+  <h3 class="m-20">Tabs</h3>
+
+    <div class="tab m_t-20 block_center">     
+      <div class="tab__panel" data-tabpanel>
+        <div class="tab__item tab__item_active">Tab 1</div>
+        <div class="tab__item">Tab 2</div>
+        <div class="tab__item">Tab 3</div>
+        <div class="m-10 dropdown">        
+          <button class="btn btn_outline-dark dropdown__btn" id="dropdownTab">
+            Dropdown button
+          </button>
+          <div class="dropdown__menu" data-id="dropdownTab">
+            <a href="#" class="dropdown__item">Tab 1</a>
+            <a href="#" class="dropdown__item">Tab 2</a>
+            <a href="#" class="dropdown__item">Tab 3</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab__content tab__content_active">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eveniet ut consequuntur deserunt tempore et quibusdam, magnam explicabo ea consectetur exercitationem quaerat non quia alias fuga, consequatur eum repudiandae facilis.
+        <br> <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea maxime aliquam modi! Assumenda ex in facere sunt aut error doloremque odio, enim aperiam quaerat id? Provident sequi ex ad? Minima.
+      </div>
+
+
+      <div class="tab__content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eveniet ut consequuntur deserunt tempore et quibusdam, magnam explicabo ea consectetur exercitationem quaerat non quia alias fuga, consequatur eum repudiandae facilis.
+        <br> <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ducimus cupiditate pariatur in accusantium eaque ipsa nesciunt voluptatum quibusdam consequuntur iure, sit perferendis, dolorum nostrum error, id quo atque repellat!
+        <br> <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto expedita quis nisi odio, soluta aut! Quo repellat ipsa similique. Quo sit harum accusantium odit ut quos accusamus aut cum doloribus.
+      </div>
+
+      <div class="tab__content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eveniet ut consequuntur deserunt tempore et quibusdam, magnam explicabo ea consectetur exercitationem quaerat non quia alias fuga, consequatur eum repudiandae facilis.
+      </div>
+    </div>
+
+  <!-- Accordion -->
+  <h3 class="m-20">Accordion</h3>
+  
+    <div class="accordion m_t-20 block_center">
+      
+      <div class="accordion__head">
+        <span>
+          Collapse first element
+        </span>
+      </div>
+      <div class="accordion__content">
+        <div class="accordion__content-inner">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia perferendis odio sit assumenda deleniti sapiente aliquid facere sequi nobis possimus animi, rerum explicabo, quisquam pariatur harum odit consequatur maiores accusamus!
+        </div>
+      </div>
+
+      <div class="accordion__head">
+        <span>
+          Collapse second element
+        </span>
+      </div>
+      <div class="accordion__content">
+        <div class="accordion__content-inner">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia perferendis odio sit assumenda deleniti sapiente aliquid facere sequi nobis possimus animi, rerum explicabo, quisquam pariatur harum odit consequatur maiores accusamus!
+        </div>
+      </div>
+
+    <!-- Carousel -->
+    <h3 class="m-20">Carousel</h3>
+      <div class="carousel" id="example">
+       
+        <ol class="carousel__indicators">
+          <li class="carousel__indicator carousel__indicator_active" data-slide-to="0"></li>
+          <li class="carousel__indicator" data-slide-to="1"></li>
+          <li class="carousel__indicator" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel__inner">
+          <div class="carousel__slides">
+           <div class="carousel__slide">
+            <img class="carousel__img" src="https://images.unsplash.com/photo-1657624694552-1fc65825f0cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="photo">
+          </div>
+          <div class="carousel__slide">
+            <img class="carousel__img" src="https://images.unsplash.com/photo-1657658153344-3fa560150950?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="photo">
+          </div>
+          <div class="carousel__slide">
+            <img class="carousel__img"src="https://images.unsplash.com/photo-1653782285420-f9108206b04c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="photo">
+          </div>
+        </div>
+
+          <a href="#" class="carousel__btn carousel__btn_prev" >
+            <span class="carousel__prev-icon">&lt;</span>
+          </a>
+
+          <a href="#" class="carousel__btn carousel__btn_next" >
+            <span class="carousel__next-icon">&gt;</span>
+          </a>
+
+         
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
